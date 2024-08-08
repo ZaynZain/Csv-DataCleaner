@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Cleaning Results</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='results.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Data Cleaning Results</h1>
+        <h2>Missing Values Before Cleaning</h2>
+        <p>Total Missing Values Percentage: {{ total_missing_percentage.round(4) }}%</p>
+        {{ before|safe }}
+        <h2>Pie Chart of Missing Values</h2>
+        <img src="{{ url_for('static', filename='files/missing_values_pie_chart.png') }}" alt="Pie Chart of Missing Values">
+        <h2>Missing Values After Cleaning</h2>
+        {{ after|safe }}
+        <h2>Cleaned Data</h2>
+        {{ data|safe }}
+        <br>
+        <a href="{{ url_for('download_file', path=download_link) }}" class="btn btn-primary">Download Cleaned Dataset</a>
+    </div>
+</body>
+</html>

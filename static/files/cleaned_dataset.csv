@@ -1,0 +1,16 @@
+Name,Age,Salary,Department,Experience,Rating,Joining Date,Location,Bonus,Performance Score
+Alice,29.0,70000.0,IT,5.0,4.5,2020-01-15,New York,5000.0,85.0
+Bob,25.0,50000.0,HR,3.0,3.2,2019-03-10,Chicago,3000.0,70.0
+Charlie,35.0,120000.0,IT,10.0,3.2,2017-07-22,San Francisco,2000.0,95.0
+David,45.0,150000.0,Finance,20.0,4.9,2000-11-30,Miami,10000.0,92.0
+Eve,30.0,75000.0,IT,3.0,4.3,2021-06-19,Chicago,6000.0,88.0
+Frank,27.0,50000.0,HR,2.0,3.8,2022-04-13,Chicago,2000.0,80.0
+Grace,39.0,98000.0,IT,12.0,4.7,1998-01-12,New York,2000.0,90.0
+Hank,25.0,82000.0,Finance,8.0,4.1,2018-05-05,Miami,4000.0,70.0
+Ivy,25.0,67000.0,Marketing,3.0,3.2,2020-09-30,San Francisco,2500.0,70.0
+Jack,50.0,200000.0,IT,25.0,5.0,1998-01-12,Chicago,15000.0,99.0
+Kelly,34.0,110000.0,Marketing,9.0,4.6,2015-10-08,Chicago,2000.0,94.0
+Leo,25.0,95000.0,HR,7.0,3.9,2016-12-17,New York,7000.0,86.0
+Mona,42.0,50000.0,IT,18.0,4.4,2004-04-21,Miami,9000.0,70.0
+Nina,37.0,105000.0,Finance,3.0,4.8,2013-08-15,San Francisco,8000.0,91.0
+Oscar,28.0,80000.0,Marketing,4.0,3.2,2018-02-25,Chicago,3500.0,75.0
